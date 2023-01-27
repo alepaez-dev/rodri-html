@@ -1,0 +1,20 @@
+EJERCICIO 1 - Subir a tu repo recien creado, un cambio nuevo con su commit nuevo.
+
+Pasos para EJERCICIO 1:
+1 - Hacer el cambio(crear un archivo, cambiar el html de archivo existente, cambiarle 
+el nombre a un archivo)
+2 - Una vez hecho estos cambios. Git los detecta como untracked -> git status
+3 - Agregas esos cambios para que estén listos para commitear -> git add . OR git add <file>
+4 - Commitear con un nombre esos cambios recién agregadios -> git commit -m "<nombre>"
+5 - Subir a github esos cambios -> git push origin <rama>
+
+EJERCICIO 2 - Hacer un repo nuevo y conectarlo con mi repo local.
+Pasos para EJERCICIO 2:
+1 - Ir a una carpeta e inicializar git -> git init
+2 - Hacer cambios (crear un archivo) -> touch <file>
+3 - Una vez hecho estos cambios. Git los detecta como untracked -> git status
+4 - Agregas esos cambios para que estén listos para commitear -> git add . OR git add <file>
+5 - Commitear con un nombre esos cambios recién agregadios -> git commit -m "<nombre>"
+6 - Ir a github y crear un repositorio publico
+7 - Copiar la linea git remote add <repo>
+8 - Subir a github esos cambios -> git push origin <rama>
