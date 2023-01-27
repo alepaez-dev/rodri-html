@@ -16,5 +16,5 @@ Pasos para EJERCICIO 2:
 4 - Agregas esos cambios para que estén listos para commitear -> git add . OR git add <file>
 5 - Commitear con un nombre esos cambios recién agregadios -> git commit -m "<nombre>"
 6 - Ir a github y crear un repositorio publico
-7 - Copiar la linea git remote add <repo>
+7 - Copiar la linea git remote add <repo> y pegarla en la terminal
 8 - Subir a github esos cambios -> git push origin <rama>
