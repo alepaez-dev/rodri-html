@@ -1,8 +1,3 @@
 TAREA
 
-* Investigar *
-1 - Qué es CSS ?
-2 - Como está CSS estructurado (Internal stylesheet, external, etc) ???
-
-* Reto *
-1 - Crear un span y cambiarle el color de forma internal stylesheet (Opcional/Preguntar).
+![Screen Shot 2023-03-02 at 20.43.17.png](inkdrop://file:l2RnpufvZ)
