@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 3</title>
+
+  <!-- Mandamos a llamar el archivo de clase3.css :) -->
+  <link rel="stylesheet" href="./cs/clase3.css">
+</head>
+<body>
+  <!-- Internal sheet -->
+  <style>
+    /* Las clases no son unicas, muchos elementos las pueden usar */
+    .boton-secundario {
+      background-color: rgb(55, 109, 55);
+    }
+
+  </style>
+  
+  <!-- Inline CSS -->
+  <button style="color:red; background-color:blue; border:1px solid orange; border-radius: 4px;">Hola</button>
+  <!-- Clases -->
+  <button class="boton-secundario">Boton Secundario</button>
+  <button class="boton-secundario">Boton Secundario</button>
+  <button class="boton-secundario">Boton Secundario</button>
+  <button class="boton-secundario">Boton Secundario</button>
+  <button class="boton-secundario">Boton Secundario</button>
+
+  
+  <button class="boton-terciario">Boton Terciario</button>
+
+  <button class="boton-unico-clase" id="boton-unico">Boton con estilo único</button>
+
+  <div id="cajita">
+    TEXTO DE LA CAJITA
+  </div>
+
+  <div class="otra-cajita">
+    <div>
+      <span>Este es el titulo</span>
+    </div>
+
+    <div>
+      <p>Este el contenido principal</p>
+    </div>
+
+    <div>
+      <p>Parrafo 1</p>
+      <p>Parrafo 2</p>
+      <p>Parrafo 3</p>
+    </div>
+  </div>
+
+  
+</body>
+</html>
