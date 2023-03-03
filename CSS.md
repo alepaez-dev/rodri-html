@@ -16,9 +16,22 @@ button {
 }
 ```
 
+
+### Unidades
 En CSS cuando hablamos de unidades hablamos de
 - Pixeles
 - Rems -> tamaño elemento raiz
 - Ems -> tamaño elemento padre
 - vw -> ancho ventana gráfica
 - vh -> altura ventana gráfica
+
+
+### Selectores
+La forma de apuntar a un elemento y aplicarle CSS
+
+###### Selectores básicos
+1. Elemento
+2. Clases
+3. Ids
+
+Prioridad: Id > Class > Elemento
