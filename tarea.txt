@@ -1,3 +1,8 @@
-INVESTIGAR
-1 - Qué es GIT Flow ?
-2 - Qué es un Pull Request en GIT ???
+TAREA
+
+* Investigar *
+1 - Qué es CSS ?
+2 - Como está CSS estructurado (Internal stylesheet, external, etc) ???
+
+* Reto *
+1 - Crear un span y cambiarle el color de forma internal stylesheet (Opcional/Preguntar).
