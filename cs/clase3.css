@@ -1,0 +1,66 @@
+.boton-terciario {
+  color: yellow;
+}
+
+/* Selector de clase */
+.boton-terciario {
+  color: aqua
+}
+
+/* Selector de elemento */
+button {
+  color: salmon;
+}
+
+/* Selector de id -> unico */
+#boton-unico {
+  background-color: #D2CA57;
+  border: none;
+  cursor: all-scroll;
+}
+
+/* Hover */
+#boton-unico:hover {
+  background-color:bisque;
+}
+
+/* Aqui el background no lo hace por prioridad */
+.boton-unico-clase {
+  background-color: rgb(40, 40, 154);
+  width: 200px;
+}
+
+#cajita {
+  width: 150px;
+  height: 80px;
+  background-color: orange;
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/JYYJXP4NUZC2ZNBTIS7PLA5G4M.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+.otra-cajita{
+  background-color: brown;
+  border-radius: 4px;
+  border: 1px solid black;
+  /* Si nada mas pones 1 dato, te pone el valor en los 4 lugares(arriba, derecha, abajo e izq) */
+  /* padding: 10px */
+
+  /* Si pones 2 datos, el valor es VERTICAL y HORIZONTAL */
+  /* padding: 10px 5px; */
+
+  /* Si pones los 4 valores, el orden es a las manecillas del reloj, arriba, derecha, abajo, izq */
+  padding: 12px 5px 3px 30px;
+  margin: 20px;
+}
+
+/* Combinacion de selectores con jerarquia */
+.otra-cajita div p {
+  color:rgb(40, 40, 154);
+}
+
+.otra-cajita div:nth-child(3) p {
+  color: green;
+}
