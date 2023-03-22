@@ -1,3 +1,7 @@
+body {
+  background-color: green;
+}
+
 #container-hidden {
   background-color: red;
   padding: 10px;
@@ -28,3 +32,16 @@
   overflow: visible; /* by default */
 }
 
+/* Media queries */
+/* Maximo hasta 600px, mas de 600 no */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #containers-visible-scroll-vertical {
+    display: none;
+  }
+}
