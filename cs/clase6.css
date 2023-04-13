@@ -110,3 +110,38 @@
   background-color: orange;
   box-shadow: 1px 1px 22px 0px rgba(0,0,0,0.54);
 }
+
+.translate {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  transform: translate(50px, 100px);
+}
+
+.rotate {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  transform: rotate(20deg);
+}
+
+.scale {
+  width: 90px;
+  height: 50px;
+  background-color: green;
+  transform: scale(1, 2);
+}
+
+.skew {
+  width: 90px;
+  height: 50px;
+  background-color: yellow;
+  transform: skew(20deg, 20deg);
+}
+
+.matrix {
+  width: 90px;
+  height: 50px;
+  background-color: purple;
+  transform: matrix(3, 0.3, 2, 2, 0, 0);
+}
