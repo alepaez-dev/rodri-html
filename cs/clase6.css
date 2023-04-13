@@ -1,0 +1,31 @@
+.linear-gradient {
+  width: 100%;
+  height: 100px;
+  color: white;
+  margin: 20px 0;
+}
+
+.linear-gradient-top-to-bottom {
+  background-image: linear-gradient(blue, green, purple);
+}
+
+.linear-gradient-left-to-right {
+  background-image: linear-gradient(to right, blue, green, purple);
+
+}
+
+.linear-gradient-bottom-to-right {
+  background-image: linear-gradient(to bottom right, blue, green, purple);
+}
+
+.linear-gradient-with-angle {
+  background-image: linear-gradient(220deg, blue, green, purple);
+}
+
+.linear-gradient-lgbtq {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.linear-gradient-transparency {
+  background-image: linear-gradient(to right, rgba(205, 205, 221, 0.5), green, rgba(209, 27, 209,0.3));
+}
