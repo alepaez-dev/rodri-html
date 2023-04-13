@@ -70,3 +70,19 @@
   background-color: orange;
   top: 0;
 }
+
+.image-papa {
+  position: relative;
+}
+
+.image-papa img {
+  position: relative;
+  z-index: 4;
+}
+.text-img {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  font-size: 100px;
+  z-index: 5;
+}
