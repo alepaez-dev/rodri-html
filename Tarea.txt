@@ -1,3 +1,1 @@
-1 - Hacer la imagen
-2 - Leer mobile first
-3 - Investigar sobre flexbox
+1 - Completar youtube con lo que esta seleccionado en rojo
