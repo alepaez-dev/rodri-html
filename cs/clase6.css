@@ -86,3 +86,20 @@
   font-size: 100px;
   z-index: 5;
 }
+
+.text-shadow {
+  font-size: 30px;
+  /* Horizontal, vertical, blur, color */
+  text-shadow: 2px 2px 5px blue;
+}
+
+.text-firma {
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 5px purple, 2px 2px 5px pink, 2px 2px 5px black;
+}
+
+.metroflog {
+  display: flex;
+  flex-direction: column;
+}
