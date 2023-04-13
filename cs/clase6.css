@@ -29,3 +29,44 @@
 .linear-gradient-transparency {
   background-image: linear-gradient(to right, rgba(205, 205, 221, 0.5), green, rgba(209, 27, 209,0.3));
 }
+
+/* Posicioines */
+
+.position-static {
+  position: static;
+  border: 3px red solid;
+}
+
+.position-relative {
+  margin: 20px 0;
+  border: 3px blue solid;
+}
+
+.position-relative div {
+  border: 3px green solid;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+  left: 50px;
+}
+
+.position-fixed {
+  border: 3px white solid;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+}
+
+.position-absolute {
+  border: 3px purple solid;
+  position: absolute;
+  top: 0;
+}
+
+.position-sticky {
+  border: 3px orange solid;
+  position: sticky;
+  background-color: orange;
+  top: 0;
+}
