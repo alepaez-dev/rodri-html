@@ -1,0 +1,58 @@
+.ease {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 4s, height 4s;
+}
+
+.linear {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width linear 4s, height linear 4s;
+}
+
+.ease-in {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width ease-in 4s, height ease-in 4s;
+}
+
+.ease-out {
+  width: 100px;
+  height: 100px;
+  background: black;
+  transition: width ease-out 4s, height ease-out 4s;
+}
+
+.ease-in-out {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: width 1.5s ease-in-out, height 1.5s ease-in-out;
+}
+
+.cubic-bezier {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  transition: width 1.5s cubic-bezier(0,.74,1,.11), height 1.5s cubic-bezier(0,.74,1,.11);
+}
+
+.with-transform {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: width 1.5s, height 1.5s, transform ease-in 4s;
+}
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+div:hover > div.trans{
+  transform: rotate(180deg);
+  color: green;
+}
