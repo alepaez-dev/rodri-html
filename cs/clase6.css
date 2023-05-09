@@ -1,0 +1,147 @@
+.linear-gradient {
+  width: 100%;
+  height: 100px;
+  color: white;
+  margin: 20px 0;
+}
+
+.linear-gradient-top-to-bottom {
+  background-image: linear-gradient(blue, green, purple);
+}
+
+.linear-gradient-left-to-right {
+  background-image: linear-gradient(to right, blue, green, purple);
+
+}
+
+.linear-gradient-bottom-to-right {
+  background-image: linear-gradient(to bottom right, blue, green, purple);
+}
+
+.linear-gradient-with-angle {
+  background-image: linear-gradient(220deg, blue, green, purple);
+}
+
+.linear-gradient-lgbtq {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.linear-gradient-transparency {
+  background-image: linear-gradient(to right, rgba(205, 205, 221, 0.5), green, rgba(209, 27, 209,0.3));
+}
+
+/* Posicioines */
+
+.position-static {
+  position: static;
+  border: 3px red solid;
+}
+
+.position-relative {
+  margin: 20px 0;
+  border: 3px blue solid;
+}
+
+.position-relative div {
+  border: 3px green solid;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+  left: 50px;
+}
+
+.position-fixed {
+  border: 3px white solid;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+}
+
+.position-absolute {
+  border: 3px purple solid;
+  position: absolute;
+  top: 0;
+}
+
+.position-sticky {
+  border: 3px orange solid;
+  position: sticky;
+  background-color: orange;
+  top: 0;
+}
+
+.image-papa {
+  position: relative;
+}
+
+.image-papa img {
+  position: relative;
+  z-index: 4;
+}
+.text-img {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  font-size: 100px;
+  z-index: 5;
+}
+
+.text-shadow {
+  font-size: 30px;
+  /* Horizontal, vertical, blur, color */
+  text-shadow: 2px 2px 5px blue;
+}
+
+.text-firma {
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 5px purple, 2px 2px 5px pink, 2px 2px 5px black;
+}
+
+.metroflog {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-shadow {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  box-shadow: 1px 1px 22px 0px rgba(0,0,0,0.54);
+}
+
+.translate {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  transform: translate(50px, 100px);
+}
+
+.rotate {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  transform: rotate(20deg);
+}
+
+.scale {
+  width: 90px;
+  height: 50px;
+  background-color: green;
+  transform: scale(1, 2);
+}
+
+.skew {
+  width: 90px;
+  height: 50px;
+  background-color: yellow;
+  transform: skew(20deg, 20deg);
+}
+
+.matrix {
+  width: 90px;
+  height: 50px;
+  background-color: purple;
+  transform: matrix(3, 0.3, 2, 2, 0, 0);
+}
