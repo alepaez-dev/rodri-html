@@ -1,0 +1,95 @@
+.text-tooltip {
+  border-radius: 4px;
+  background-color: grey;
+  color: white;
+  width: 150px;
+  padding: 5px;
+}
+
+.container-tooltip {
+  position: relative;
+}
+
+.text-tooltip {
+  position: absolute;
+  bottom: 20px;
+  left: -2px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+/* Cuando hagamos hover al contenedor cambiamos las propiedas de .text-tooltip */
+.container-tooltip:hover .text-tooltip{
+  visibility: visible;
+  opacity: 1;
+}
+
+.baby-goat {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-image-container {
+  width: 50%;
+  margin: auto;
+  position: relative;
+}
+.centered-image {
+  opacity: 0.4;
+  width: 100%;
+}
+
+.centered-image-text {
+  position: absolute;
+  left: 0px;
+}
+
+/* Filtered images */
+.blur {
+  filter: blur(1px);
+}
+.brightness {
+  filter: brightness(250%);
+}
+
+.contrast {
+  filter: contrast(180%);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.huerotate {
+  filter: hue-rotate(180deg);
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.opacity {
+  filter: opacity(50%);
+}
+
+.saturate {
+  filter: saturate(7);
+}
+.sepia {
+  filter: sepia(100%);
+}
+.shadow {
+  filter: drop-shadow(8px 8px 10px green);
+}
