@@ -1,0 +1,127 @@
+.ease {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 4s, height 4s;
+}
+
+.linear {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width linear 4s, height linear 4s;
+}
+
+.ease-in {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width ease-in 4s, height ease-in 4s;
+}
+
+.ease-out {
+  width: 100px;
+  height: 100px;
+  background: black;
+  transition: width ease-out 4s, height ease-out 4s;
+}
+
+.ease-in-out {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: width 1.5s ease-in-out, height 1.5s ease-in-out;
+}
+
+.cubic-bezier {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  transition: width 1.5s cubic-bezier(0,.74,1,.11), height 1.5s cubic-bezier(0,.74,1,.11);
+}
+
+.with-transform {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: width 1.5s, height 1.5s, transform ease-in 4s;
+}
+/* div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+} */
+
+/* div:hover > div.trans{
+  transform: rotate(180deg);
+  color: green;
+} */
+
+.with-translate {
+  width: 100px;
+  height: 100px;
+  background: salmon;
+  transition: transform 2s;
+}
+
+.with-translate:hover {
+  transform: translate(50px,100px);
+}
+
+/* Animations */
+@keyframes animacion {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:salmon; left:0px; top:0px;}
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-delay: -2s;
+  animation-iteration-count: 2;
+}
+
+.animation-reverse {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-delay: -2s;
+  animation-iteration-count: 2;
+  animation-direction: reverse;
+}
+
+.animation-alternate {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-delay: -2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+.animation-alternate-reverse {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-delay: -2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
